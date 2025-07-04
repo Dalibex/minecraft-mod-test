@@ -17,7 +17,5 @@ public class TestMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
-		ModItems.registerFuels();
 	}
-
 }
