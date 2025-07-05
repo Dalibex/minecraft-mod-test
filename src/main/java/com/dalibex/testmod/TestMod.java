@@ -1,5 +1,7 @@
 package com.dalibex.testmod;
 
+import dev.lambdaurora.lambdynlights.api.DynamicLightsContext;
+import dev.lambdaurora.lambdynlights.api.DynamicLightsInitializer;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

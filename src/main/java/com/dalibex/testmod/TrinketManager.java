@@ -4,6 +4,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
+// EFFECTS AND PARTICLES
 public class TrinketManager {
 
     public static void tickPlayer(PlayerEntity player) {
@@ -31,15 +32,15 @@ public class TrinketManager {
         switch(type) {
             case CANDLE -> effectLightTierOne(player);
             case SUSPICIOUS_SUBSTANCE -> testingEffect(player);
-            // más casos...
+            // Cases here
         }
     }
 
     private static void effectLightTierOne(PlayerEntity player) {
-        // Código efecto luz...
+        // Effects
     }
 
     private static void testingEffect(PlayerEntity player) {
-        // Otro efecto...
+        // Effects
     }
 }
