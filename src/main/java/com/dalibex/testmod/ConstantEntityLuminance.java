@@ -1,10 +1,8 @@
 package com.dalibex.testmod;
 
-import dev.lambdaurora.lambdynlights.api.DynamicLightsInitializer;
 import dev.lambdaurora.lambdynlights.api.entity.luminance.EntityLuminance;
 import dev.lambdaurora.lambdynlights.api.item.ItemLightSourceManager;
 import net.minecraft.entity.Entity;
-import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.Range;
 
 public final class ConstantEntityLuminance implements EntityLuminance {
