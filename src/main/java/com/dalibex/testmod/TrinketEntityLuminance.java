@@ -19,7 +19,6 @@ public final class TrinketEntityLuminance implements EntityLuminance {
     @Override
     public @Range(from = 0, to = 15) int getLuminance(ItemLightSourceManager itemLightSourceManager, Entity entity) {
         if (entity instanceof PlayerEntity player) {
-            System.out.print(TrinketLightHandler.getLightLevel(player));
             return TrinketLightHandler.getLightLevel(player);
         }
         return 0;

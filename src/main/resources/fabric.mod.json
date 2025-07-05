@@ -21,7 +21,7 @@
 		"client": [
 			"com.dalibex.testmod.TestModClient"
 		],
-		"lambdynlights": [
+		"lambdynlights:initializer": [
 			"com.dalibex.testmod.TestModDynamicLightsInitializer"
 		]
 	},

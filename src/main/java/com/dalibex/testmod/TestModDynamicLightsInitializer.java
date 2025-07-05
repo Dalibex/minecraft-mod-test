@@ -21,8 +21,6 @@ public class TestModDynamicLightsInitializer implements DynamicLightsInitializer
 
     @Override
     public void onInitializeDynamicLights(DynamicLightsContext context) {
-        System.out.println("[DEBUG] onInitializeDynamicLights ejecutado");
-
         context.entityLightSourceManager().onRegisterEvent().register(registry -> {
             registry.register(net.minecraft.entity.EntityType.PLAYER, TrinketEntityLuminance.INSTANCE);
         });
