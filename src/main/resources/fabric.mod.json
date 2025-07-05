@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"com.dalibex.testmod.TestModClient"
+		],
+		"lambdynlights": [
+			"com.dalibex.testmod.TestModDynamicLightsInitializer"
 		]
 	},
 	"mixins": [

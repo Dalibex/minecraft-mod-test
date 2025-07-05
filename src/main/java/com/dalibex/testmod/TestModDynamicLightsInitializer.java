@@ -9,14 +9,22 @@ public class TestModDynamicLightsInitializer implements DynamicLightsInitializer
 
     public static final EntityLuminance.Type CONSTANT
             = EntityLuminance.Type.registerSimple(
-            Identifier.of("testmod", "custom"),
+            Identifier.of("testmod", "light"),
             ConstantEntityLuminance.INSTANCE
     );
 
+    public static final EntityLuminance.Type TRINKET_LIGHT =
+            EntityLuminance.Type.registerSimple(
+                    Identifier.of("testmod", "trinket_light"),
+                    TrinketEntityLuminance.INSTANCE
+            );
+
     @Override
     public void onInitializeDynamicLights(DynamicLightsContext context) {
+        System.out.println("[DEBUG] onInitializeDynamicLights ejecutado");
 
+        context.entityLightSourceManager().onRegisterEvent().register(registry -> {
+            registry.register(net.minecraft.entity.EntityType.PLAYER, TrinketEntityLuminance.INSTANCE);
+        });
     }
-
-    // Initializer code
 }
