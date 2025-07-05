@@ -22,6 +22,6 @@ public final class ConstantEntityLuminance implements EntityLuminance {
             ItemLightSourceManager itemLightSourceManager,
             Entity entity
     ) {
-        return 5;
+        return 15;
     }
 }

@@ -9,7 +9,7 @@ public class TestModDynamicLightsInitializer implements DynamicLightsInitializer
 
     public static final EntityLuminance.Type CONSTANT
             = EntityLuminance.Type.registerSimple(
-            Identifier.of("<your namespace>", "custom"),
+            Identifier.of("testmod", "custom"),
             ConstantEntityLuminance.INSTANCE
     );
 
