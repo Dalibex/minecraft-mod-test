@@ -1,30 +1,33 @@
-# Minecraft Mod for Testing
+# Trinkets Mod
 
-I am currently trying features about Fabric and Minecraft modding.  
-This repository is mainly for learning purposes and testing how the Fabric ecosystem works, at least for now.
+I was trying features about Fabric and Minecraft modding, and I decided to do a Mod about "Trinkets", items with different purposes.
 
-It contains several example items taken and adapted from the official Fabric documentation.  
-Additionally, it has the correct folder structure and subdirectories set up for a functional mod.  
+This was made from this basic [Fabric Example Mod](https://github.com/FabricMC/fabric-example-mod) repository.
 
-Feel free to use this as a more advanced starting point compared to the basic [Fabric Example Mod](https://github.com/FabricMC/fabric-example-mod) repository.  
-Anyone is welcome to fork, clone, or use this as a base for their own projects.
+## Features (06-07-2025)
 
-## Features (29-06-2025)
+- Creation of an item and making it a fuel (testing)
+- Basic registry for items, item group "Trinkets" in creative inventory
+- Trinket slots 9-10 colored with light red
+- Dynamic lights using mod created by LambdAurora
 
-- Creation of an item and making it a fuel
-- Basic registry examples for items and item groups
-- Clean and correct folder structure for Fabric mods
+## List of Trinkets
 
-## Requirements
+- Candle: Just 1 tier for now, emits 15 light level when hold in "survival inventory" slots 9-10.
+
+## Requirements for develelopment
 
 - [Fabric Loader](https://fabricmc.net/)
-- [Fabric API](https://modrinth.com/mod/fabric-api)  
+- [Fabric API](https://modrinth.com/mod/fabric-api)
+- [LambDynamicLights by LambdAurora](https://lambdaurora.dev/projects/lambdynamiclights/docs/v4/)
 - Minecraft version matching the Fabric Loader
 
-I have installed the **Minecraft Development** plugin for IntelliJ to simplify development in general but it is not necessary
+*Some of should already work by using build.gradle in project*
+I have installed the **Minecraft Development** plugin for IntelliJ to simplify development in general
+
+I am learning so refactoring ideas for simplifying code or repair any bugs encountered is highly appreciated!
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
 Feel completely free to use, modify, or redistribute this repository as needed.
