@@ -27,7 +27,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"testmod" {
+		"trinket" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

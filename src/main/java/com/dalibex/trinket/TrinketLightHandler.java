@@ -1,4 +1,4 @@
-package com.dalibex.testmod;
+package com.dalibex.trinket;
 
 import net.minecraft.entity.player.PlayerEntity;
 

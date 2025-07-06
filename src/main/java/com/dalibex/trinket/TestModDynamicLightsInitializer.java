@@ -1,4 +1,4 @@
-package com.dalibex.testmod;
+package com.dalibex.trinket;
 
 import dev.lambdaurora.lambdynlights.api.DynamicLightsContext;
 import dev.lambdaurora.lambdynlights.api.DynamicLightsInitializer;

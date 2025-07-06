@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "testmod",
+	"id": "trinket",
 	"version": "${version}",
-	"name": "testing Mod",
-	"description": "First mod using fabric",
+	"name": "Trinket Mod",
+	"description": "Mod including Trinkets, for now just 1 was implemented",
 	"authors": [
 		"Dalibex"
 	],
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/Dalibex/minecraft-mod-test"
 	},
 	"license": "MIT",
-	"icon": "assets/testmod/icon.png",
+	"icon": "assets/trinket/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.dalibex.testmod.TestMod"
+			"com.dalibex.trinket.TrinketMod"
 		],
 		"client": [
-			"com.dalibex.testmod.TestModClient"
+			"com.dalibex.trinket.TestModClient"
 		],
 		"lambdynlights:initializer": [
-			"com.dalibex.testmod.TestModDynamicLightsInitializer"
+			"com.dalibex.trinket.TestModDynamicLightsInitializer"
 		]
 	},
 	"mixins": [
-		"testmod.mixins.json"
+		"trinket.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "testmod:item/suspicious_substance"
+    "layer0": "trinket:item/suspicious_substance"
   }
 }

@@ -1,4 +1,4 @@
-package com.dalibex.testmod;
+package com.dalibex.trinket;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -19,10 +19,10 @@ import java.util.function.Function;
 public class ModItems {
 
     // Inventory tab creative mode
-    public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(TestMod.MOD_ID, "trinkets"));
+    public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(TrinketMod.MOD_ID, "trinkets"));
     public static final ItemGroup CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.CANDLE))
-            .displayName(Text.translatable("itemGroup.testmod.trinkets"))
+            .displayName(Text.translatable("itemGroup.trinket.trinkets"))
             .build();
 
     public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Settings());
@@ -38,7 +38,7 @@ public class ModItems {
 
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
         // Create the item key.
-        RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TestMod.MOD_ID, name));
+        RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TrinketMod.MOD_ID, name));
 
         // Create the item instance.
         Item item = itemFactory.apply(settings.registryKey(itemKey));

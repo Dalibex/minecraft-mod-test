@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.dalibex.testmod.mixin",
+	"package": "com.dalibex.trinket.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"access.HandledScreenAccessor"

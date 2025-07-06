@@ -1,4 +1,4 @@
-package com.dalibex.testmod;
+package com.dalibex.trinket;
 
 public enum TrinketType {
     CANDLE("candle"),

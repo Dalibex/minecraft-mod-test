@@ -1,4 +1,4 @@
-package com.dalibex.testmod;
+package com.dalibex.trinket;
 
 import dev.lambdaurora.lambdynlights.api.entity.luminance.EntityLuminance;
 import dev.lambdaurora.lambdynlights.api.item.ItemLightSourceManager;

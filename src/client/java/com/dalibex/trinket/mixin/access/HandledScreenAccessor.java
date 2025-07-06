@@ -1,4 +1,4 @@
-package com.dalibex.testmod.mixin.access;
+package com.dalibex.trinket.mixin.access;
 
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import org.spongepowered.asm.mixin.Mixin;

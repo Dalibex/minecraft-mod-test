@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.dalibex.testmod.mixin.client",
+	"package": "com.dalibex.trinket.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"injectors": {
 		"defaultRequire": 1
