@@ -22,8 +22,7 @@ This was made from this basic [Fabric Example Mod](https://github.com/FabricMC/f
 - [LambDynamicLights by LambdAurora](https://lambdaurora.dev/projects/lambdynamiclights/docs/v4/)
 - Minecraft version matching the Fabric Loader
 
-*Some of should already work by using build.gradle in project*
-
+*Some of should already work by using build.gradle in project*  
 I have installed the **Minecraft Development** plugin for IntelliJ to simplify development in general
 
 ## Considerations
@@ -32,5 +31,5 @@ I am learning so refactoring ideas for simplifying code or repair any bugs encou
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).  
 Feel completely free to use, modify, or redistribute this repository as needed.
