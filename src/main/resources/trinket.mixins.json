@@ -2,12 +2,9 @@
 	"required": true,
 	"package": "com.dalibex.trinket.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"access.HandledScreenAccessor"
-	],
+	"mixins": [],
 	"client": [
-		"client.TrinketSlots",
-		"client.TrinketsSlotsSurvivalView"
+		"client.TrinketSlots"
 	],
 	"injectors": {
 		"defaultRequire": 1
