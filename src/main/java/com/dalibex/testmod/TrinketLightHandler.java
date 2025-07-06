@@ -5,7 +5,12 @@ import net.minecraft.entity.player.PlayerEntity;
 public class TrinketLightHandler {
     public static int getLightLevel(PlayerEntity player) {
 
-        boolean hasCandleInMainHand = player.getMainHandStack().getItem() == ModItems.CANDLE;
-        return hasCandleInMainHand ? 15 : 0;
+        if (!player.getInventory().isEmpty()) {
+            if (player.getInventory().getStack(9).getItem() == ModItems.CANDLE || player.getInventory().getStack(10).getItem() == ModItems.CANDLE) {
+                return 15;
+            }
+        }
+
+        return 0;
     }
 }

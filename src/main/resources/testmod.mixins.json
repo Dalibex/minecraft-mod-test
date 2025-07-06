@@ -3,7 +3,11 @@
 	"package": "com.dalibex.testmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"access.HandledScreenAccessor"
+	],
+	"client": [
+		"client.TrinketSlots",
+		"client.TrinketsSlotsSurvivalView"
 	],
 	"injectors": {
 		"defaultRequire": 1
