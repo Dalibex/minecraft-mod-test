@@ -23,7 +23,10 @@ This was made from this basic [Fabric Example Mod](https://github.com/FabricMC/f
 - Minecraft version matching the Fabric Loader
 
 *Some of should already work by using build.gradle in project*
+
 I have installed the **Minecraft Development** plugin for IntelliJ to simplify development in general
+
+## Considerations
 
 I am learning so refactoring ideas for simplifying code or repair any bugs encountered is highly appreciated!
 
