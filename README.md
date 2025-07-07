@@ -25,6 +25,11 @@ This was made from this basic [Fabric Example Mod](https://github.com/FabricMC/f
 *Some of should already work by using build.gradle in project*  
 I have installed the **Minecraft Development** plugin for IntelliJ to simplify development in general
 
+If you found any problems, consider checking documentation:
+- [Yarn](https://github.com/FabricMC/yarn/tree/1.21.7)
+- [Loom](https://github.com/FabricMC/fabric-loom)
+- [Develop](https://fabricmc.net/develop/) for maintenance
+
 ## Considerations
 
 I am learning so refactoring ideas for simplifying code or repair any bugs encountered is highly appreciated!
