@@ -1,4 +1,4 @@
-# Trinkets Mod
+# Trinkets Mod for Minecraft 1.21.6
 
 I was trying features about Fabric and Minecraft modding, and I decided to do a Mod about "Trinkets", items with different purposes.
 
