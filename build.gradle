@@ -17,6 +17,10 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 	maven {
+		name = "SpongePowered"
+		url = "https://repo.spongepowered.org/maven"
+	}
+	maven {
 		name = "Gegy"
 		url = uri("https://maven.gegy.dev")
 	}
@@ -33,6 +37,9 @@ loom {
 		}
 	}
 
+	mixin {
+		defaultRefmapName.set("trinket.refmap.json")
+	}
 }
 
 dependencies {

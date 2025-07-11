@@ -28,14 +28,12 @@
 	"mixins": [
 		"trinket.mixins.json"
 	],
+	"refmap": "trinket.refmap.json",
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.6",
 		"java": ">=21",
 		"fabric-api": "*",
 		"lambdynlights": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

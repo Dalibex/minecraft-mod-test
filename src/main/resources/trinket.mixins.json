@@ -1,10 +1,11 @@
 {
 	"required": true,
-	"package": "com.dalibex.trinket.mixin",
+	"package": "com.dalibex.trinket.mixin.client",
 	"compatibilityLevel": "JAVA_21",
+	"refmap": "client-trinket.refmap.json",
 	"mixins": [],
 	"client": [
-		"client.TrinketSlots"
+		"TrinketSlots"
 	],
 	"injectors": {
 		"defaultRequire": 1
