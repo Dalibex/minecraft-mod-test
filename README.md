@@ -13,7 +13,7 @@ This was made from this basic [Fabric Example Mod](https://github.com/FabricMC/f
 
 ## List of Trinkets
 
-- Candle: Just 1 tier for now, emits 15 light level when hold in "survival inventory" slots 9-10.
+- Candle: Just 1 tier for now, emits 15 light level when hold in slots 9-10.
 
 ## Requirements for develelopment
 
